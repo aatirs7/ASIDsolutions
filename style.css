@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: auto; /* Adjusting height for scrollability */
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+header nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+    height: 400px;
+    background-color: #000000;
+}
+
+.hero-image {
+    height: 100%;
+    background-image: url('BG7.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.hero-text h1 {
+    font-size: 48px; /* Increase the font size for the heading */
+    /* Add other styling as needed */
+}
+
+.hero-text p {
+    font-size: 35px; /* Increase the font size for the paragraph */
+    /* Add other styling as needed */
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.content-item {
+    width: 45%;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Footer sticking to the bottom */
+footer {
+    position: relative; /* Changed from absolute to relative */
+    width: 100%;
+}
+
+/* Make header semi-translucent */
+header {
+    background-color: rgba(51, 51, 51, 0.5);
+}
+
+/* Fade the background image */
+.hero-image {
+    opacity: 0.8;
+}
+
+/* Additional styles */
+.image-container {
+    text-align: center; /* Centering the image */
+    margin: 5px 0; /* Adding some margin */
+}
+.full-width-image {
+    width: 100%; /* Makes the image take full width of its container */
+    height: auto; /* Maintains the aspect ratio of the image */
+}
+
